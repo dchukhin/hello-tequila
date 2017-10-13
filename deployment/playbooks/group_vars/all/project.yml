@@ -1,1 +1,6 @@
 project_name: 'hello_tequila'
+repo:
+  url: https://github.com/dchukhin/hello-tequila
+  branch: master
+secret_key: '{{ SECRET_KEY }}'
+github_deploy_key: '{{ SECRET_GITHUB_DEPLOY_KEY }}'

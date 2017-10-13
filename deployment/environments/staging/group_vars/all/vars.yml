@@ -4,3 +4,6 @@ db_user: 'hello_tequila_staging'
 db_password: '{{ SECRET_DB_PASSWORD }}'
 pg_version: 9.5
 app_minions: "{{ groups['web'] | union(groups['worker']) }}"
+domain: 'shipit0.caktus-built.com'
+cert_source: 'none'
+gunicorn_num_workers: 1
