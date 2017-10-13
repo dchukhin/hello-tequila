@@ -16,9 +16,6 @@ MEDIA_ROOT = os.path.join(PUBLIC_ROOT, 'media')
 # ALLOWED_HOSTS = os.environ['ALLOWED_HOSTS'].split(';')
 ALLOWED_HOSTS = [os.environ['DOMAIN']]
 
-os.environ.setdefault('BROKER_HOST', '127.0.0.1:5672')
-BROKER_URL = 'amqp://hello_tequila_%(ENVIRONMENT)s:%(BROKER_PASSWORD)s@%(BROKER_HOST)s/hello_tequila_%(ENVIRONMENT)s' % os.environ  # noqa
-
 os.environ.setdefault('CACHE_HOST', '127.0.0.1:11211')
 CACHES = {
     'default': {
