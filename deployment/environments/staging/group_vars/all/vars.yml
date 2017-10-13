@@ -1,1 +1,6 @@
 env_name: 'staging'
+db_name: 'hello_tequila_staging'
+db_user: 'hello_tequila_staging'
+db_password: '{{ SECRET_DB_PASSWORD }}'
+pg_version: 9.5
+app_minions: "{{ groups['web'] | union(groups['worker']) }}"
