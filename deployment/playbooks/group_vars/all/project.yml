@@ -4,3 +4,4 @@ repo:
   branch: master
 secret_key: '{{ SECRET_KEY }}'
 github_deploy_key: '{{ SECRET_GITHUB_DEPLOY_KEY }}'
+force_ssl: false
