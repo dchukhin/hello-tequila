@@ -101,8 +101,6 @@ SESSION_COOKIE_HTTPONLY = True
 
 SESSION_COOKIE_SECURE = True
 
-SITE_ID = os.environ['SITE_ID']
-
 STATIC_ROOT = os.path.join(PUBLIC_ROOT, 'static')
 
 DEBUG = False
