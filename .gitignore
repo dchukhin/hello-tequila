@@ -2,3 +2,6 @@
 
 hello_tequila/settings/local.py
 .vault_pass
+*.retry
+*.priv
+__pycache__
