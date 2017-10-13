@@ -1,0 +1,9 @@
+staging ansible_host=shipit0.caktus-built.com
+
+[db]
+staging
+
+[web]
+staging
+
+[worker]

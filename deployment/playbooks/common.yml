@@ -1,0 +1,5 @@
+---
+  - hosts: web:db:queue:worker:search
+    become: yes
+    roles:
+      - tequila-common
